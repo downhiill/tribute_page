@@ -1,0 +1,157 @@
+
+
+
+header 
+{
+    text-align: left;
+    background-color: rgba(176, 174, 174, 0.288);
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between; 
+}
+header>nav
+{
+    display: flex;
+    align-items: flex-end;
+}
+h2
+{
+
+    margin: 15px 50px 2px 15px;
+}
+h1
+{
+
+    margin: 10px 10px 10px 50px;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(184, 184, 183, 0.273);
+    font-family: "Nanum Gothic", sans-serif;
+    
+}
+.firstBlock
+{
+    position: relative; /* Позиционирование для содержимого внутри блока */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color:rgba(176, 172, 172, 0.89);
+    
+}
+.firstBlock img {
+    width: 100%;
+    height: 100%; /* Устанавливаем высоту блока */
+    object-fit: cover; /* Изображение покрывает блок, сохраняя пропорции */
+    display: block; /* Убираем отступы вокруг изображения */
+    
+}
+.textContent {
+    position: absolute; /* Позиционирование текста относительно блока */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /* Вертикальное центрирование текста */
+    justify-content: center; /* Горизонтальное центрирование текста */
+    text-align: center; /* Выравнивание текста по центру */
+}
+.textContent p {
+    background: rgba(98, 96, 96, 0.236);
+    color: white; /* Цвет текста */
+    font-size: 80px; /* Размер шрифта */
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5); /* Тень для улучшения читаемости */
+    margin: 0; /* Удаление отступов вокруг текста */
+    border-radius: 20px;
+}
+.secondBlock
+{
+
+    display: flex;
+    gap: 20px; /* Расстояние между текстом и изображением */
+}
+.title
+{
+    font-size: 24px; /* Размер шрифта для заголовка */
+    font-weight: bold; /* Жирный шрифт */
+    margin: 20px 50px;
+    padding: 0; 
+}
+.textAndTitle {
+    flex: 1; /* Текст занимает всю доступную ширину, оставляя пространство для изображения */
+    display: flex;
+    flex-direction: column; /* Размещаем заголовок и текст вертикально */
+}
+.textInfo
+{
+    font-size: 16px;
+    margin: 0 50px;
+}
+.img1
+{
+    margin: 80px 70px;
+    flex: 0 0 auto;
+    width: 300px;
+    flex-direction: none;
+    
+}
+.img1 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+.secAndtree
+{
+
+    font-family: "Nanum Gothic", sans-serif;
+    background: rgba(22, 22, 22);
+    color: antiquewhite;
+    font-size: larger;
+}
+hr 
+{
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 10px 50px; /* отступы сверху и снизу */
+}
+.Iconic
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.Iconic div {
+    margin: 0 50px; 
+    flex: 1 1 200px; /* Позволяет блокам с изображениями расширяться и сжиматься */
+    padding-bottom: 40px;
+}
+.Iconic img {
+    width: 100%;
+    height: auto; /* Сохраняет пропорции изображения */
+    max-width: 250px; /* Максимальная ширина для изображений */
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    object-fit: cover; /* Обеспечивает, что изображение заполнит область, сохраняя пропорции */
+    display: block;
+    
+}
+
+footer
+{
+    background-color: rgba(176, 174, 174, 0.288);
+    margin: 20px 50px;
+    width: auto;
+    height: auto;
+
+}
+
